@@ -225,13 +225,6 @@
             this.setBackground('rgb(0,0,0)');
 
             this.tick = 0;
-            
-            // this.canvas.onclick = (e) => {
-            //     let x = e.offsetX;
-            //     let y = e.offsetY;
-            //     this.x = x;
-            //     this.y = y;
-            // };
         },
 
         render: function() {
