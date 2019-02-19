@@ -3,15 +3,14 @@ body {
     padding: 0;
 
     background: #333;
-    height: 100vh;
     width: 100vw;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
 }
 
 canvas {
+    display: block;
     border: 5px solid #ccc;
     box-sizing: border-box;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
 }
